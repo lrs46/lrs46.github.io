@@ -92,9 +92,9 @@ async function debug(config) {
 }
 
 debug({
-    defaultPropertyPoints: 20, // default number of points for a property
-    talentSelectLimit: 3, // max number of talents that can be selected
-    propertyAllocateLimit: [0, 10], // scoop of properties that can be allocated,
+    defaultPropertyPoints: 40, // default number of points for a property
+    talentSelectLimit: 5, // max number of talents that can be selected
+    propertyAllocateLimit: [0, 20], // scoop of properties that can be allocated,
     defaultPropertys: { SPR: 5 }, // default properties
     talentConfig: { // config for talent
         talentPullCount: 10, // number of talents to pull from the talent pool
